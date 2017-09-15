@@ -30,6 +30,6 @@ steve.learn(more_knowledge)
 bob.learn(some_knowledge)
 bob.learn(more_knowledge)
 
-Student.all.each |name|
+Student.all.each |name| do
   puts "#{name} just learned this important knowledge: '#{steve.knowledge.flatten}' from Avi"
 end

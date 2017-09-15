@@ -14,4 +14,6 @@ class Student < User
     @knowledge.dup.freeze
   end
 
+  def self.all? { @@all  }
+
 end

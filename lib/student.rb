@@ -16,6 +16,6 @@ class Student < User
 
   def self.all
     @@all
-  end  
+  end
 
 end

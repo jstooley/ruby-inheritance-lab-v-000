@@ -14,7 +14,7 @@ class Student < User
     @knowledge.dup.freeze
   end
 
-  def self.all 
+  def self.all
     @@all
   end  
 
